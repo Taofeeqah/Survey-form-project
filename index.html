@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Survey Form</h1>
+
+    <form action="#">
+      <div class="form-control">
+        <label for="name" id="label-name"> Name </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+        />
+      </div>
+
+      <div class="form-control">
+        <label for="email" id="label-email"> Email </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your Email"
+        />
+      </div>
+
+      <div class="form-control">
+        <label for="age" id="label-age"> Age </label>
+        <input type="number" name="age" id="age" placeholder="Enter your age" />
+      </div>
+
+      <div class="form-control">
+        <label for="description">Which option best describes you</label>
+        <select name="description" id="desc">
+          <option value="Student">Student</option>
+          <option value="Working class">Working class</option>
+          <option value="Self employed">Self employed</option>
+        </select>
+      </div>
+
+      <div class="form-control">
+        <label for="recommend">Would you recommend Stutern to a friend?</label>
+        <div><input type="radio" name="yes" id="yes" /> <span>Yes</span></div>
+        <div><input type="radio" name="No" id="No" /> <span>No</span></div>
+        <div>
+          <input type="radio" name="Maybe" id="Maybe" /> <span>Maybe</span>
+        </div>
+      </div>
+
+      <div class="form-control">
+        <label for="language"
+          >Languages and Frameworks known
+          <small>(Check all that apply)</small></label
+        >
+        <div>
+          <div><input type="checkbox" name="inp" /> <span>C</span></div>
+          <div><input type="checkbox" name="inp" /> <span>C++</span></div>
+          <div><input type="checkbox" name="inp" /> <span>C#</span></div>
+          <div><input type="checkbox" name="inp" /> <span>Java</span></div>
+          <div><input type="checkbox" name="inp" /> <span>Python</span></div>
+          <div>
+            <input type="checkbox" name="inp" /> <span>Javascript</span>
+          </div>
+          <div><input type="checkbox" name="inp" /> <span>React</span></div>
+          <div><input type="checkbox" name="inp" /> <span>Angular</span></div>
+          <div><input type="checkbox" name="inp" /> <span>Django</span></div>
+          <div><input type="checkbox" name="inp" /> <span>Spring</span></div>
+        </div>
+      </div>
+
+      <div class="form-control">
+        <label for="comments">Any comments or suggestions</label>
+        <div><textarea name="" id="" cols="30" rows="3"></textarea></div>
+      </div>
+
+      <div class="form-control">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

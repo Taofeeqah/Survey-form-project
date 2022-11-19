@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  background-color: #59bf75;
+  color: black;
+  font-size: 16px;
+  font-family: "GTEestiDisplay-Medium", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  background-color: #fff;
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 2px 2px 12px;
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin-bottom: 24px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 10px;
+  width: 95%;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+
+button {
+  width: 95%;
+  background-color: #59bf75;
+  padding: 4px;
+  border: none;
+  font: inherit;
+}
